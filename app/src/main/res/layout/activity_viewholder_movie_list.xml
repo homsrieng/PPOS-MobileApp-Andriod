@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MovieList">
+
+    <RelativeLayout android:layout_width="230dp" android:layout_height="wrap_content" android:padding="10dp">
+        <ImageView
+                android:id="@+id/imvMovie"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/noimagefound"
+                android:scaleType="centerCrop"/>
+        <TextView
+                android:id="@+id/tvMovieName"
+                android:layout_below="@id/imvMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Movie Name"
+                android:textAlignment="center"
+                android:maxLength="15"
+                android:ellipsize="end"/>
+        <TextView
+                android:id="@+id/tvMovieYear"
+                android:layout_below="@id/tvMovieName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:text="Year"/>
+    </RelativeLayout>
+</RelativeLayout>

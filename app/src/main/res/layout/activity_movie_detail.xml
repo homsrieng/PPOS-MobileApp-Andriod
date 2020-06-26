@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        tools:context=".ui.ActivityMovieDetail">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView
+                android:id="@+id/imvMovieDetail"
+                android:layout_width="match_parent"
+                android:src="@drawable/noimagefound"
+                android:scaleType="center"
+                android:layout_height="300dp"/>
+        <TextView
+                android:id="@+id/tvMovieTitle"
+                android:layout_below="@id/imvMovieDetail"
+                android:layout_width="match_parent"
+                android:text="Sample Description"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:maxLines="2"
+                android:layout_height="wrap_content"/>
+        <android.support.v4.widget.NestedScrollView
+                android:layout_below="@id/tvMovieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/tvMovieDetailDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Sample of Long Description"/>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+</RelativeLayout>
