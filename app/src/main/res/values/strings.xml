@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">PPOS-App</string>
     <string name="by_entering_sms_code_i_agree_with_the_terms_and_conditions">By Entering SMS code I agree with the <font color='#FF9F1C'>terms and conditions</font></string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

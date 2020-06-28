@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
-    <corners android:radius="20dp" />
-    <solid android:color="@color/colorPrimary" />
+    <corners android:radius="@dimen/radius_midium" />
+    <solid android:color="@color/colorWhite" />
     <stroke
         android:width="1dip"
-        android:color="@color/colorPrimary" />
+        android:color="@color/colorYello" />
 </shape>
